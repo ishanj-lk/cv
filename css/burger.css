@@ -1,0 +1,68 @@
+/******************************** TAG SELECTORS *******************************/
+body {
+  background-color: #00af91;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted 5px;
+  border-color: white;
+  width: 10%;
+}
+
+h1 {
+  display: inline-block;
+  position: static;
+  color: red;
+  font-size: 80px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h2 {
+  color: #f58634;
+}
+
+h3 {
+  color: #ffcc29;
+}
+
+.burgerImg {
+  display: inline-block;
+  background-color: red;
+  border-radius: 30%;
+  float: right;
+  margin-bottom:-354px;
+  margin-right: 60%;
+  margin-top: -110px;
+  padding: 0;
+  position: static;
+}
+
+/********************************* CLASS SELECTORS ****************************/
+.friesImg {
+  background-color: red;
+  border-radius: 30%;
+  margin-right: 60%;
+  margin-top: -150px;
+  padding: 0;
+  float: right;
+  position: static;
+}
+
+img:hover {
+  background-color: yellow;
+}
+
+.p {
+  display: inline-block;
+}
+
+/********************************* ID SELECTORS *******************************/
+#topParapraph {
+  color: white;
+  display: inline-block;
+  margin: 0px;
+  margin-top: 50px;
+}
